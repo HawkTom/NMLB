@@ -1,0 +1,364 @@
+<Instance map="egl-e1-B" D-best="5106">
+    <State>
+        <vehicle stop="15" rcapacity="82" seq="8 49 6 47 "/>
+        <vehicle stop="56" rcapacity="108" seq="12 15 16 "/>
+        <vehicle stop="1" rcapacity="220" seq="18 20 23 24 21 22 19 "/>
+        <vehicle stop="1" rcapacity="220" seq="2 3 4 17 "/>
+    </State>
+    <Tasks num="84">
+        <task index="0" head_node="1" tail_node="1" demand="0" dead_cost="0" serv_cost="0" inverse="0"/>
+        <task index="1" head_node="1" tail_node="2" demand="32" dead_cost="32" serv_cost="32" inverse="43"/>
+        <task index="2" head_node="4" tail_node="5" demand="56" dead_cost="280" serv_cost="56" inverse="44"/>
+        <task index="3" head_node="9" tail_node="10" demand="20" dead_cost="20" serv_cost="20" inverse="45"/>
+        <task index="4" head_node="11" tail_node="12" demand="48" dead_cost="32" serv_cost="48" inverse="46"/>
+        <task index="5" head_node="12" tail_node="16" demand="29" dead_cost="5" serv_cost="29" inverse="47"/>
+        <task index="6" head_node="13" tail_node="16" demand="13" dead_cost="13" serv_cost="13" inverse="48"/>
+        <task index="7" head_node="13" tail_node="14" demand="26" dead_cost="1" serv_cost="10" inverse="49"/>
+        <task index="8" head_node="15" tail_node="17" demand="26" dead_cost="130" serv_cost="26" inverse="50"/>
+        <task index="9" head_node="31" tail_node="32" demand="58" dead_cost="58" serv_cost="58" inverse="51"/>
+        <task index="10" head_node="32" tail_node="33" demand="30" dead_cost="6" serv_cost="30" inverse="52"/>
+        <task index="11" head_node="32" tail_node="35" demand="86" dead_cost="17" serv_cost="86" inverse="53"/>
+        <task index="12" head_node="35" tail_node="41" demand="15" dead_cost="15" serv_cost="15" inverse="54"/>
+        <task index="13" head_node="43" tail_node="44" demand="78" dead_cost="78" serv_cost="78" inverse="55"/>
+        <task index="14" head_node="47" tail_node="48" demand="10" dead_cost="10" serv_cost="10" inverse="56"/>
+        <task index="15" head_node="42" tail_node="57" demand="14" dead_cost="14" serv_cost="14" inverse="57"/>
+        <task index="16" head_node="57" tail_node="58" demand="78" dead_cost="78" serv_cost="78" inverse="58"/>
+        <task index="17" head_node="11" tail_node="59" demand="136" dead_cost="15" serv_cost="117" inverse="59"/>
+        <task index="18" head_node="58" tail_node="60" demand="33" dead_cost="33" serv_cost="33" inverse="60"/>
+        <task index="19" head_node="60" tail_node="61" demand="39" dead_cost="39" serv_cost="39" inverse="61"/>
+        <task index="20" head_node="60" tail_node="62" demand="23" dead_cost="115" serv_cost="23" inverse="62"/>
+        <task index="21" head_node="62" tail_node="63" demand="30" dead_cost="30" serv_cost="30" inverse="63"/>
+        <task index="22" head_node="63" tail_node="65" demand="21" dead_cost="21" serv_cost="21" inverse="64"/>
+        <task index="23" head_node="62" tail_node="66" demand="82" dead_cost="16" serv_cost="24" inverse="65"/>
+        <task index="24" head_node="66" tail_node="68" demand="45" dead_cost="225" serv_cost="45" inverse="66"/>
+        <task index="25" head_node="59" tail_node="69" demand="11" dead_cost="55" serv_cost="11" inverse="67"/>
+        <task index="26" head_node="23" tail_node="75" demand="17" dead_cost="17" serv_cost="17" inverse="68"/>
+        <task index="27" head_node="20" tail_node="76" demand="8" dead_cost="8" serv_cost="8" inverse="69"/>
+        <task index="28" head_node="21" tail_node="51" demand="2" dead_cost="2" serv_cost="2" inverse="70"/>
+        <task index="29" head_node="5" tail_node="6" demand="8" dead_cost="8" serv_cost="8" inverse="71"/>
+        <task index="30" head_node="7" tail_node="8" demand="18" dead_cost="18" serv_cost="18" inverse="72"/>
+        <task index="31" head_node="8" tail_node="9" demand="26" dead_cost="26" serv_cost="26" inverse="73"/>
+        <task index="32" head_node="18" tail_node="20" demand="21" dead_cost="4" serv_cost="21" inverse="74"/>
+        <task index="33" head_node="22" tail_node="24" demand="4" dead_cost="4" serv_cost="4" inverse="75"/>
+        <task index="34" head_node="26" tail_node="28" demand="18" dead_cost="18" serv_cost="18" inverse="76"/>
+        <task index="35" head_node="39" tail_node="40" demand="5" dead_cost="5" serv_cost="5" inverse="77"/>
+        <task index="36" head_node="35" tail_node="39" demand="7" dead_cost="7" serv_cost="7" inverse="78"/>
+        <task index="37" head_node="41" tail_node="42" demand="18" dead_cost="18" serv_cost="18" inverse="79"/>
+        <task index="38" head_node="11" tail_node="48" demand="79" dead_cost="79" serv_cost="79" inverse="80"/>
+        <task index="39" head_node="70" tail_node="71" demand="56" dead_cost="56" serv_cost="56" inverse="81"/>
+        <task index="40" head_node="72" tail_node="73" demand="5" dead_cost="5" serv_cost="5" inverse="82"/>
+        <task index="41" head_node="15" tail_node="77" demand="13" dead_cost="13" serv_cost="13" inverse="83"/>
+        <task index="42" head_node="62" tail_node="67" demand="31" dead_cost="6" serv_cost="31" inverse="84"/>
+        <task index="43" head_node="2" tail_node="1" demand="32" dead_cost="32" serv_cost="32" inverse="1"/>
+        <task index="44" head_node="5" tail_node="4" demand="56" dead_cost="280" serv_cost="56" inverse="2"/>
+        <task index="45" head_node="10" tail_node="9" demand="20" dead_cost="20" serv_cost="20" inverse="3"/>
+        <task index="46" head_node="12" tail_node="11" demand="48" dead_cost="32" serv_cost="48" inverse="4"/>
+        <task index="47" head_node="16" tail_node="12" demand="29" dead_cost="5" serv_cost="29" inverse="5"/>
+        <task index="48" head_node="16" tail_node="13" demand="13" dead_cost="13" serv_cost="13" inverse="6"/>
+        <task index="49" head_node="14" tail_node="13" demand="26" dead_cost="1" serv_cost="10" inverse="7"/>
+        <task index="50" head_node="17" tail_node="15" demand="26" dead_cost="130" serv_cost="26" inverse="8"/>
+        <task index="51" head_node="32" tail_node="31" demand="58" dead_cost="58" serv_cost="58" inverse="9"/>
+        <task index="52" head_node="33" tail_node="32" demand="30" dead_cost="6" serv_cost="30" inverse="10"/>
+        <task index="53" head_node="35" tail_node="32" demand="86" dead_cost="17" serv_cost="86" inverse="11"/>
+        <task index="54" head_node="41" tail_node="35" demand="15" dead_cost="15" serv_cost="15" inverse="12"/>
+        <task index="55" head_node="44" tail_node="43" demand="78" dead_cost="78" serv_cost="78" inverse="13"/>
+        <task index="56" head_node="48" tail_node="47" demand="10" dead_cost="10" serv_cost="10" inverse="14"/>
+        <task index="57" head_node="57" tail_node="42" demand="14" dead_cost="14" serv_cost="14" inverse="15"/>
+        <task index="58" head_node="58" tail_node="57" demand="78" dead_cost="78" serv_cost="78" inverse="16"/>
+        <task index="59" head_node="59" tail_node="11" demand="136" dead_cost="15" serv_cost="117" inverse="17"/>
+        <task index="60" head_node="60" tail_node="58" demand="33" dead_cost="33" serv_cost="33" inverse="18"/>
+        <task index="61" head_node="61" tail_node="60" demand="39" dead_cost="39" serv_cost="39" inverse="19"/>
+        <task index="62" head_node="62" tail_node="60" demand="23" dead_cost="115" serv_cost="23" inverse="20"/>
+        <task index="63" head_node="63" tail_node="62" demand="30" dead_cost="30" serv_cost="30" inverse="21"/>
+        <task index="64" head_node="65" tail_node="63" demand="21" dead_cost="21" serv_cost="21" inverse="22"/>
+        <task index="65" head_node="66" tail_node="62" demand="82" dead_cost="16" serv_cost="24" inverse="23"/>
+        <task index="66" head_node="68" tail_node="66" demand="45" dead_cost="225" serv_cost="45" inverse="24"/>
+        <task index="67" head_node="69" tail_node="59" demand="11" dead_cost="55" serv_cost="11" inverse="25"/>
+        <task index="68" head_node="75" tail_node="23" demand="17" dead_cost="17" serv_cost="17" inverse="26"/>
+        <task index="69" head_node="76" tail_node="20" demand="8" dead_cost="8" serv_cost="8" inverse="27"/>
+        <task index="70" head_node="51" tail_node="21" demand="2" dead_cost="2" serv_cost="2" inverse="28"/>
+        <task index="71" head_node="6" tail_node="5" demand="8" dead_cost="8" serv_cost="8" inverse="29"/>
+        <task index="72" head_node="8" tail_node="7" demand="18" dead_cost="18" serv_cost="18" inverse="30"/>
+        <task index="73" head_node="9" tail_node="8" demand="26" dead_cost="26" serv_cost="26" inverse="31"/>
+        <task index="74" head_node="20" tail_node="18" demand="21" dead_cost="4" serv_cost="21" inverse="32"/>
+        <task index="75" head_node="24" tail_node="22" demand="4" dead_cost="4" serv_cost="4" inverse="33"/>
+        <task index="76" head_node="28" tail_node="26" demand="18" dead_cost="18" serv_cost="18" inverse="34"/>
+        <task index="77" head_node="40" tail_node="39" demand="5" dead_cost="5" serv_cost="5" inverse="35"/>
+        <task index="78" head_node="39" tail_node="35" demand="7" dead_cost="7" serv_cost="7" inverse="36"/>
+        <task index="79" head_node="42" tail_node="41" demand="18" dead_cost="18" serv_cost="18" inverse="37"/>
+        <task index="80" head_node="48" tail_node="11" demand="79" dead_cost="79" serv_cost="79" inverse="38"/>
+        <task index="81" head_node="71" tail_node="70" demand="56" dead_cost="56" serv_cost="56" inverse="39"/>
+        <task index="82" head_node="73" tail_node="72" demand="5" dead_cost="5" serv_cost="5" inverse="40"/>
+        <task index="83" head_node="77" tail_node="15" demand="13" dead_cost="13" serv_cost="13" inverse="41"/>
+        <task index="84" head_node="67" tail_node="62" demand="31" dead_cost="6" serv_cost="31" inverse="42"/>
+    </Tasks>
+    <Arcs>
+        <arc head_node="1" tail_node="1" trav_cost="0"/>
+        <arc head_node="1" tail_node="2" trav_cost="32"/>
+        <arc head_node="2" tail_node="3" trav_cost="14"/>
+        <arc head_node="2" tail_node="4" trav_cost="17"/>
+        <arc head_node="4" tail_node="5" trav_cost="280"/>
+        <arc head_node="9" tail_node="10" trav_cost="20"/>
+        <arc head_node="11" tail_node="12" trav_cost="32"/>
+        <arc head_node="12" tail_node="16" trav_cost="5"/>
+        <arc head_node="13" tail_node="16" trav_cost="13"/>
+        <arc head_node="13" tail_node="14" trav_cost="1"/>
+        <arc head_node="15" tail_node="17" trav_cost="130"/>
+        <arc head_node="15" tail_node="18" trav_cost="38"/>
+        <arc head_node="18" tail_node="19" trav_cost="8"/>
+        <arc head_node="19" tail_node="20" trav_cost="32"/>
+        <arc head_node="19" tail_node="21" trav_cost="38"/>
+        <arc head_node="21" tail_node="22" trav_cost="17"/>
+        <arc head_node="22" tail_node="75" trav_cost="24"/>
+        <arc head_node="23" tail_node="31" trav_cost="8"/>
+        <arc head_node="31" tail_node="32" trav_cost="58"/>
+        <arc head_node="32" tail_node="33" trav_cost="6"/>
+        <arc head_node="32" tail_node="34" trav_cost="43"/>
+        <arc head_node="32" tail_node="35" trav_cost="17"/>
+        <arc head_node="35" tail_node="41" trav_cost="15"/>
+        <arc head_node="43" tail_node="44" trav_cost="78"/>
+        <arc head_node="44" tail_node="45" trav_cost="12"/>
+        <arc head_node="44" tail_node="46" trav_cost="13"/>
+        <arc head_node="46" tail_node="47" trav_cost="33"/>
+        <arc head_node="47" tail_node="48" trav_cost="10"/>
+        <arc head_node="47" tail_node="49" trav_cost="9"/>
+        <arc head_node="49" tail_node="50" trav_cost="1"/>
+        <arc head_node="49" tail_node="51" trav_cost="10"/>
+        <arc head_node="50" tail_node="52" trav_cost="2"/>
+        <arc head_node="52" tail_node="54" trav_cost="4"/>
+        <arc head_node="55" tail_node="56" trav_cost="1"/>
+        <arc head_node="42" tail_node="57" trav_cost="14"/>
+        <arc head_node="57" tail_node="58" trav_cost="78"/>
+        <arc head_node="58" tail_node="59" trav_cost="5"/>
+        <arc head_node="11" tail_node="59" trav_cost="15"/>
+        <arc head_node="58" tail_node="60" trav_cost="33"/>
+        <arc head_node="60" tail_node="61" trav_cost="39"/>
+        <arc head_node="60" tail_node="62" trav_cost="115"/>
+        <arc head_node="62" tail_node="63" trav_cost="30"/>
+        <arc head_node="63" tail_node="65" trav_cost="21"/>
+        <arc head_node="62" tail_node="66" trav_cost="16"/>
+        <arc head_node="66" tail_node="68" trav_cost="225"/>
+        <arc head_node="58" tail_node="69" trav_cost="160"/>
+        <arc head_node="59" tail_node="69" trav_cost="55"/>
+        <arc head_node="4" tail_node="69" trav_cost="75"/>
+        <arc head_node="23" tail_node="75" trav_cost="17"/>
+        <arc head_node="20" tail_node="76" trav_cost="8"/>
+        <arc head_node="21" tail_node="51" trav_cost="2"/>
+        <arc head_node="44" tail_node="59" trav_cost="28"/>
+        <arc head_node="5" tail_node="6" trav_cost="8"/>
+        <arc head_node="5" tail_node="7" trav_cost="6"/>
+        <arc head_node="7" tail_node="8" trav_cost="18"/>
+        <arc head_node="8" tail_node="9" trav_cost="26"/>
+        <arc head_node="10" tail_node="11" trav_cost="12"/>
+        <arc head_node="14" tail_node="15" trav_cost="7"/>
+        <arc head_node="13" tail_node="77" trav_cost="12"/>
+        <arc head_node="18" tail_node="20" trav_cost="4"/>
+        <arc head_node="22" tail_node="24" trav_cost="4"/>
+        <arc head_node="24" tail_node="25" trav_cost="27"/>
+        <arc head_node="25" tail_node="75" trav_cost="3"/>
+        <arc head_node="25" tail_node="26" trav_cost="17"/>
+        <arc head_node="23" tail_node="26" trav_cost="2"/>
+        <arc head_node="26" tail_node="27" trav_cost="15"/>
+        <arc head_node="26" tail_node="28" trav_cost="18"/>
+        <arc head_node="28" tail_node="29" trav_cost="3"/>
+        <arc head_node="25" tail_node="29" trav_cost="5"/>
+        <arc head_node="30" tail_node="31" trav_cost="14"/>
+        <arc head_node="33" tail_node="36" trav_cost="5"/>
+        <arc head_node="33" tail_node="37" trav_cost="75"/>
+        <arc head_node="37" tail_node="38" trav_cost="8"/>
+        <arc head_node="37" tail_node="39" trav_cost="21"/>
+        <arc head_node="39" tail_node="40" trav_cost="5"/>
+        <arc head_node="35" tail_node="39" trav_cost="7"/>
+        <arc head_node="40" tail_node="41" trav_cost="1"/>
+        <arc head_node="41" tail_node="42" trav_cost="18"/>
+        <arc head_node="42" tail_node="43" trav_cost="11"/>
+        <arc head_node="45" tail_node="46" trav_cost="12"/>
+        <arc head_node="11" tail_node="48" trav_cost="79"/>
+        <arc head_node="51" tail_node="53" trav_cost="1"/>
+        <arc head_node="52" tail_node="53" trav_cost="4"/>
+        <arc head_node="24" tail_node="53" trav_cost="24"/>
+        <arc head_node="19" tail_node="50" trav_cost="30"/>
+        <arc head_node="42" tail_node="56" trav_cost="26"/>
+        <arc head_node="63" tail_node="64" trav_cost="1"/>
+        <arc head_node="70" tail_node="71" trav_cost="56"/>
+        <arc head_node="71" tail_node="72" trav_cost="6"/>
+        <arc head_node="71" tail_node="73" trav_cost="5"/>
+        <arc head_node="72" tail_node="73" trav_cost="5"/>
+        <arc head_node="73" tail_node="74" trav_cost="25"/>
+        <arc head_node="18" tail_node="72" trav_cost="92"/>
+        <arc head_node="56" tail_node="67" trav_cost="36"/>
+        <arc head_node="12" tail_node="76" trav_cost="7"/>
+        <arc head_node="15" tail_node="77" trav_cost="13"/>
+        <arc head_node="76" tail_node="77" trav_cost="35"/>
+        <arc head_node="60" tail_node="67" trav_cost="29"/>
+        <arc head_node="62" tail_node="67" trav_cost="6"/>
+        <arc head_node="2" tail_node="1" trav_cost="32"/>
+        <arc head_node="3" tail_node="2" trav_cost="14"/>
+        <arc head_node="4" tail_node="2" trav_cost="17"/>
+        <arc head_node="5" tail_node="4" trav_cost="280"/>
+        <arc head_node="10" tail_node="9" trav_cost="20"/>
+        <arc head_node="12" tail_node="11" trav_cost="32"/>
+        <arc head_node="16" tail_node="12" trav_cost="5"/>
+        <arc head_node="16" tail_node="13" trav_cost="13"/>
+        <arc head_node="14" tail_node="13" trav_cost="1"/>
+        <arc head_node="17" tail_node="15" trav_cost="130"/>
+        <arc head_node="18" tail_node="15" trav_cost="38"/>
+        <arc head_node="19" tail_node="18" trav_cost="8"/>
+        <arc head_node="20" tail_node="19" trav_cost="32"/>
+        <arc head_node="21" tail_node="19" trav_cost="38"/>
+        <arc head_node="22" tail_node="21" trav_cost="17"/>
+        <arc head_node="75" tail_node="22" trav_cost="24"/>
+        <arc head_node="31" tail_node="23" trav_cost="8"/>
+        <arc head_node="32" tail_node="31" trav_cost="58"/>
+        <arc head_node="33" tail_node="32" trav_cost="6"/>
+        <arc head_node="34" tail_node="32" trav_cost="43"/>
+        <arc head_node="35" tail_node="32" trav_cost="17"/>
+        <arc head_node="41" tail_node="35" trav_cost="15"/>
+        <arc head_node="44" tail_node="43" trav_cost="78"/>
+        <arc head_node="45" tail_node="44" trav_cost="12"/>
+        <arc head_node="46" tail_node="44" trav_cost="13"/>
+        <arc head_node="47" tail_node="46" trav_cost="33"/>
+        <arc head_node="48" tail_node="47" trav_cost="10"/>
+        <arc head_node="49" tail_node="47" trav_cost="9"/>
+        <arc head_node="50" tail_node="49" trav_cost="1"/>
+        <arc head_node="51" tail_node="49" trav_cost="10"/>
+        <arc head_node="52" tail_node="50" trav_cost="2"/>
+        <arc head_node="54" tail_node="52" trav_cost="4"/>
+        <arc head_node="56" tail_node="55" trav_cost="1"/>
+        <arc head_node="57" tail_node="42" trav_cost="14"/>
+        <arc head_node="58" tail_node="57" trav_cost="78"/>
+        <arc head_node="59" tail_node="58" trav_cost="5"/>
+        <arc head_node="59" tail_node="11" trav_cost="15"/>
+        <arc head_node="60" tail_node="58" trav_cost="33"/>
+        <arc head_node="61" tail_node="60" trav_cost="39"/>
+        <arc head_node="62" tail_node="60" trav_cost="115"/>
+        <arc head_node="63" tail_node="62" trav_cost="30"/>
+        <arc head_node="65" tail_node="63" trav_cost="21"/>
+        <arc head_node="66" tail_node="62" trav_cost="16"/>
+        <arc head_node="68" tail_node="66" trav_cost="225"/>
+        <arc head_node="69" tail_node="58" trav_cost="160"/>
+        <arc head_node="69" tail_node="59" trav_cost="55"/>
+        <arc head_node="69" tail_node="4" trav_cost="75"/>
+        <arc head_node="75" tail_node="23" trav_cost="17"/>
+        <arc head_node="76" tail_node="20" trav_cost="8"/>
+        <arc head_node="51" tail_node="21" trav_cost="2"/>
+        <arc head_node="59" tail_node="44" trav_cost="28"/>
+        <arc head_node="6" tail_node="5" trav_cost="8"/>
+        <arc head_node="7" tail_node="5" trav_cost="6"/>
+        <arc head_node="8" tail_node="7" trav_cost="18"/>
+        <arc head_node="9" tail_node="8" trav_cost="26"/>
+        <arc head_node="11" tail_node="10" trav_cost="12"/>
+        <arc head_node="15" tail_node="14" trav_cost="7"/>
+        <arc head_node="77" tail_node="13" trav_cost="12"/>
+        <arc head_node="20" tail_node="18" trav_cost="4"/>
+        <arc head_node="24" tail_node="22" trav_cost="4"/>
+        <arc head_node="25" tail_node="24" trav_cost="27"/>
+        <arc head_node="75" tail_node="25" trav_cost="3"/>
+        <arc head_node="26" tail_node="25" trav_cost="17"/>
+        <arc head_node="26" tail_node="23" trav_cost="2"/>
+        <arc head_node="27" tail_node="26" trav_cost="15"/>
+        <arc head_node="28" tail_node="26" trav_cost="18"/>
+        <arc head_node="29" tail_node="28" trav_cost="3"/>
+        <arc head_node="29" tail_node="25" trav_cost="5"/>
+        <arc head_node="31" tail_node="30" trav_cost="14"/>
+        <arc head_node="36" tail_node="33" trav_cost="5"/>
+        <arc head_node="37" tail_node="33" trav_cost="75"/>
+        <arc head_node="38" tail_node="37" trav_cost="8"/>
+        <arc head_node="39" tail_node="37" trav_cost="21"/>
+        <arc head_node="40" tail_node="39" trav_cost="5"/>
+        <arc head_node="39" tail_node="35" trav_cost="7"/>
+        <arc head_node="41" tail_node="40" trav_cost="1"/>
+        <arc head_node="42" tail_node="41" trav_cost="18"/>
+        <arc head_node="43" tail_node="42" trav_cost="11"/>
+        <arc head_node="46" tail_node="45" trav_cost="12"/>
+        <arc head_node="48" tail_node="11" trav_cost="79"/>
+        <arc head_node="53" tail_node="51" trav_cost="1"/>
+        <arc head_node="53" tail_node="52" trav_cost="4"/>
+        <arc head_node="53" tail_node="24" trav_cost="24"/>
+        <arc head_node="50" tail_node="19" trav_cost="30"/>
+        <arc head_node="56" tail_node="42" trav_cost="26"/>
+        <arc head_node="64" tail_node="63" trav_cost="1"/>
+        <arc head_node="71" tail_node="70" trav_cost="56"/>
+        <arc head_node="72" tail_node="71" trav_cost="6"/>
+        <arc head_node="73" tail_node="71" trav_cost="5"/>
+        <arc head_node="73" tail_node="72" trav_cost="5"/>
+        <arc head_node="74" tail_node="73" trav_cost="25"/>
+        <arc head_node="72" tail_node="18" trav_cost="92"/>
+        <arc head_node="67" tail_node="56" trav_cost="36"/>
+        <arc head_node="76" tail_node="12" trav_cost="7"/>
+        <arc head_node="77" tail_node="15" trav_cost="13"/>
+        <arc head_node="77" tail_node="76" trav_cost="35"/>
+        <arc head_node="67" tail_node="60" trav_cost="29"/>
+        <arc head_node="67" tail_node="62" trav_cost="6"/>
+    </Arcs>
+    <Dynamic>
+        <cost>
+            <increase head_node="4" tail_node="5" cost="224"/>
+            <increase head_node="12" tail_node="16" cost="-24"/>
+            <increase head_node="13" tail_node="14" cost="-6"/>
+            <increase head_node="15" tail_node="17" cost="104"/>
+            <increase head_node="18" tail_node="19" cost="-33"/>
+            <increase head_node="23" tail_node="31" cost="-32"/>
+            <increase head_node="32" tail_node="33" cost="-24"/>
+            <increase head_node="32" tail_node="35" cost="-69"/>
+            <increase head_node="49" tail_node="50" cost="-7"/>
+            <increase head_node="55" tail_node="56" cost="-5"/>
+            <increase head_node="58" tail_node="59" cost="-20"/>
+            <increase head_node="11" tail_node="59" cost="-63"/>
+            <increase head_node="60" tail_node="62" cost="92"/>
+            <increase head_node="66" tail_node="68" cost="180"/>
+            <increase head_node="58" tail_node="69" cost="128"/>
+            <increase head_node="59" tail_node="69" cost="44"/>
+            <increase head_node="18" tail_node="20" cost="-17"/>
+            <increase head_node="25" tail_node="75" cost="-13"/>
+            <increase head_node="23" tail_node="26" cost="-10"/>
+            <increase head_node="28" tail_node="29" cost="-13"/>
+            <increase head_node="25" tail_node="29" cost="-22"/>
+            <increase head_node="33" tail_node="36" cost="-22"/>
+            <increase head_node="40" tail_node="41" cost="-8"/>
+            <increase head_node="51" tail_node="53" cost="-3"/>
+            <increase head_node="63" tail_node="64" cost="-8"/>
+            <increase head_node="62" tail_node="67" cost="-25"/>
+        </cost>
+        <demand>
+            <task head_node="11" tail_node="12" demand="16"/>
+            <task head_node="13" tail_node="14" demand="19"/>
+            <task head_node="11" tail_node="59" demand="58"/>
+            <task head_node="62" tail_node="66" demand="66"/>
+        </demand>
+        <newTask>
+            <newTask head_node="1" tail_node="2" demand="32"/>
+            <newTask head_node="31" tail_node="32" demand="58"/>
+            <newTask head_node="32" tail_node="33" demand="30"/>
+            <newTask head_node="32" tail_node="35" demand="86"/>
+            <newTask head_node="43" tail_node="44" demand="78"/>
+            <newTask head_node="47" tail_node="48" demand="10"/>
+            <newTask head_node="59" tail_node="69" demand="11"/>
+            <newTask head_node="23" tail_node="75" demand="17"/>
+            <newTask head_node="20" tail_node="76" demand="8"/>
+            <newTask head_node="21" tail_node="51" demand="2"/>
+            <newTask head_node="5" tail_node="6" demand="8"/>
+            <newTask head_node="7" tail_node="8" demand="18"/>
+            <newTask head_node="8" tail_node="9" demand="26"/>
+            <newTask head_node="18" tail_node="20" demand="21"/>
+            <newTask head_node="22" tail_node="24" demand="4"/>
+            <newTask head_node="26" tail_node="28" demand="18"/>
+            <newTask head_node="39" tail_node="40" demand="5"/>
+            <newTask head_node="35" tail_node="39" demand="7"/>
+            <newTask head_node="41" tail_node="42" demand="18"/>
+            <newTask head_node="11" tail_node="48" demand="79"/>
+            <newTask head_node="70" tail_node="71" demand="56"/>
+            <newTask head_node="72" tail_node="73" demand="5"/>
+            <newTask head_node="15" tail_node="77" demand="13"/>
+            <newTask head_node="62" tail_node="67" demand="31"/>
+        </newTask>
+    </Dynamic>
+    <Info>
+        <capacity num="220"/>
+        <req_edge num="42"/>
+        <non_req_edge num="56"/>
+        <vertex num="77"/>
+        <total_arc num="196"/>
+        <vehicle_num num="7"/>
+    </Info>
+</Instance>

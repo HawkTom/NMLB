@@ -1,0 +1,131 @@
+<Instance map="gdb13" D-best="268">
+    <State>
+        <vehicle stop="4" rcapacity="15" seq="10 13 "/>
+        <vehicle stop="7" rcapacity="14" seq="17 "/>
+        <vehicle stop="1" rcapacity="41" seq="24 9 4 7 14 32 "/>
+        <vehicle stop="1" rcapacity="41" seq="2 28 21 3 "/>
+    </State>
+    <Tasks num="32">
+        <task index="0" head_node="1" tail_node="1" demand="0" dead_cost="0" serv_cost="0" inverse="0"/>
+        <task index="1" head_node="1" tail_node="7" demand="19" dead_cost="20" serv_cost="6" inverse="17"/>
+        <task index="2" head_node="1" tail_node="9" demand="16" dead_cost="11" serv_cost="11" inverse="18"/>
+        <task index="3" head_node="2" tail_node="1" demand="25" dead_cost="15" serv_cost="22" inverse="19"/>
+        <task index="4" head_node="2" tail_node="3" demand="11" dead_cost="5" serv_cost="5" inverse="20"/>
+        <task index="5" head_node="2" tail_node="5" demand="7" dead_cost="12" serv_cost="12" inverse="21"/>
+        <task index="6" head_node="2" tail_node="8" demand="13" dead_cost="13" serv_cost="13" inverse="22"/>
+        <task index="7" head_node="3" tail_node="6" demand="22" dead_cost="1" serv_cost="1" inverse="23"/>
+        <task index="8" head_node="4" tail_node="1" demand="13" dead_cost="6" serv_cost="6" inverse="24"/>
+        <task index="9" head_node="4" tail_node="2" demand="4" dead_cost="3" serv_cost="3" inverse="25"/>
+        <task index="10" head_node="4" tail_node="3" demand="7" dead_cost="28" serv_cost="28" inverse="26"/>
+        <task index="11" head_node="4" tail_node="5" demand="2" dead_cost="1" serv_cost="2" inverse="27"/>
+        <task index="12" head_node="5" tail_node="9" demand="5" dead_cost="2" serv_cost="12" inverse="28"/>
+        <task index="13" head_node="6" tail_node="7" demand="8" dead_cost="9" serv_cost="9" inverse="29"/>
+        <task index="14" head_node="6" tail_node="9" demand="3" dead_cost="13" serv_cost="13" inverse="30"/>
+        <task index="15" head_node="7" tail_node="8" demand="16" dead_cost="16" serv_cost="16" inverse="31"/>
+        <task index="16" head_node="7" tail_node="9" demand="19" dead_cost="60" serv_cost="90" inverse="32"/>
+        <task index="17" head_node="7" tail_node="1" demand="19" dead_cost="20" serv_cost="6" inverse="1"/>
+        <task index="18" head_node="9" tail_node="1" demand="16" dead_cost="11" serv_cost="11" inverse="2"/>
+        <task index="19" head_node="1" tail_node="2" demand="25" dead_cost="15" serv_cost="22" inverse="3"/>
+        <task index="20" head_node="3" tail_node="2" demand="11" dead_cost="5" serv_cost="5" inverse="4"/>
+        <task index="21" head_node="5" tail_node="2" demand="7" dead_cost="12" serv_cost="12" inverse="5"/>
+        <task index="22" head_node="8" tail_node="2" demand="13" dead_cost="13" serv_cost="13" inverse="6"/>
+        <task index="23" head_node="6" tail_node="3" demand="22" dead_cost="1" serv_cost="1" inverse="7"/>
+        <task index="24" head_node="1" tail_node="4" demand="13" dead_cost="6" serv_cost="6" inverse="8"/>
+        <task index="25" head_node="2" tail_node="4" demand="4" dead_cost="3" serv_cost="3" inverse="9"/>
+        <task index="26" head_node="3" tail_node="4" demand="7" dead_cost="28" serv_cost="28" inverse="10"/>
+        <task index="27" head_node="5" tail_node="4" demand="2" dead_cost="1" serv_cost="2" inverse="11"/>
+        <task index="28" head_node="9" tail_node="5" demand="5" dead_cost="2" serv_cost="12" inverse="12"/>
+        <task index="29" head_node="7" tail_node="6" demand="8" dead_cost="9" serv_cost="9" inverse="13"/>
+        <task index="30" head_node="9" tail_node="6" demand="3" dead_cost="13" serv_cost="13" inverse="14"/>
+        <task index="31" head_node="8" tail_node="7" demand="16" dead_cost="16" serv_cost="16" inverse="15"/>
+        <task index="32" head_node="9" tail_node="7" demand="19" dead_cost="60" serv_cost="90" inverse="16"/>
+    </Tasks>
+    <Arcs>
+        <arc head_node="1" tail_node="1" trav_cost="0"/>
+        <arc head_node="1" tail_node="5" trav_cost="7"/>
+        <arc head_node="1" tail_node="6" trav_cost="18"/>
+        <arc head_node="1" tail_node="7" trav_cost="20"/>
+        <arc head_node="1" tail_node="8" trav_cost="24"/>
+        <arc head_node="1" tail_node="9" trav_cost="11"/>
+        <arc head_node="2" tail_node="1" trav_cost="15"/>
+        <arc head_node="2" tail_node="3" trav_cost="5"/>
+        <arc head_node="2" tail_node="5" trav_cost="12"/>
+        <arc head_node="2" tail_node="8" trav_cost="13"/>
+        <arc head_node="3" tail_node="1" trav_cost="1"/>
+        <arc head_node="3" tail_node="6" trav_cost="1"/>
+        <arc head_node="3" tail_node="7" trav_cost="2"/>
+        <arc head_node="3" tail_node="8" trav_cost="24"/>
+        <arc head_node="4" tail_node="1" trav_cost="6"/>
+        <arc head_node="4" tail_node="2" trav_cost="3"/>
+        <arc head_node="4" tail_node="3" trav_cost="28"/>
+        <arc head_node="4" tail_node="5" trav_cost="1"/>
+        <arc head_node="5" tail_node="6" trav_cost="20"/>
+        <arc head_node="5" tail_node="7" trav_cost="8"/>
+        <arc head_node="5" tail_node="9" trav_cost="2"/>
+        <arc head_node="6" tail_node="7" trav_cost="9"/>
+        <arc head_node="6" tail_node="9" trav_cost="13"/>
+        <arc head_node="7" tail_node="8" trav_cost="16"/>
+        <arc head_node="7" tail_node="9" trav_cost="60"/>
+        <arc head_node="7" tail_node="10" trav_cost="5"/>
+        <arc head_node="8" tail_node="9" trav_cost="22"/>
+        <arc head_node="8" tail_node="10" trav_cost="99"/>
+        <arc head_node="9" tail_node="10" trav_cost="20"/>
+        <arc head_node="5" tail_node="1" trav_cost="7"/>
+        <arc head_node="6" tail_node="1" trav_cost="18"/>
+        <arc head_node="7" tail_node="1" trav_cost="20"/>
+        <arc head_node="8" tail_node="1" trav_cost="24"/>
+        <arc head_node="9" tail_node="1" trav_cost="11"/>
+        <arc head_node="1" tail_node="2" trav_cost="15"/>
+        <arc head_node="3" tail_node="2" trav_cost="5"/>
+        <arc head_node="5" tail_node="2" trav_cost="12"/>
+        <arc head_node="8" tail_node="2" trav_cost="13"/>
+        <arc head_node="1" tail_node="3" trav_cost="1"/>
+        <arc head_node="6" tail_node="3" trav_cost="1"/>
+        <arc head_node="7" tail_node="3" trav_cost="2"/>
+        <arc head_node="8" tail_node="3" trav_cost="24"/>
+        <arc head_node="1" tail_node="4" trav_cost="6"/>
+        <arc head_node="2" tail_node="4" trav_cost="3"/>
+        <arc head_node="3" tail_node="4" trav_cost="28"/>
+        <arc head_node="5" tail_node="4" trav_cost="1"/>
+        <arc head_node="6" tail_node="5" trav_cost="20"/>
+        <arc head_node="7" tail_node="5" trav_cost="8"/>
+        <arc head_node="9" tail_node="5" trav_cost="2"/>
+        <arc head_node="7" tail_node="6" trav_cost="9"/>
+        <arc head_node="9" tail_node="6" trav_cost="13"/>
+        <arc head_node="8" tail_node="7" trav_cost="16"/>
+        <arc head_node="9" tail_node="7" trav_cost="60"/>
+        <arc head_node="10" tail_node="7" trav_cost="5"/>
+        <arc head_node="9" tail_node="8" trav_cost="22"/>
+        <arc head_node="10" tail_node="8" trav_cost="99"/>
+        <arc head_node="10" tail_node="9" trav_cost="20"/>
+    </Arcs>
+    <Dynamic>
+        <cost>
+            <increase head_node="1" tail_node="7" cost="16"/>
+            <increase head_node="3" tail_node="1" cost="-7"/>
+            <increase head_node="3" tail_node="7" cost="-8"/>
+            <increase head_node="4" tail_node="5" cost="-1"/>
+            <increase head_node="5" tail_node="7" cost="-34"/>
+            <increase head_node="5" tail_node="9" cost="-10"/>
+        </cost>
+        <demand>
+            <task head_node="1" tail_node="7" demand="6"/>
+            <task head_node="2" tail_node="1" demand="12"/>
+            <task head_node="3" tail_node="6" demand="15"/>
+            <task head_node="7" tail_node="9" demand="16"/>
+        </demand>
+        <newTask>
+            <newTask head_node="2" tail_node="8" demand="13"/>
+            <newTask head_node="4" tail_node="5" demand="2"/>
+            <newTask head_node="7" tail_node="8" demand="16"/>
+        </newTask>
+    </Dynamic>
+    <Info>
+        <capacity num="41"/>
+        <req_edge num="16"/>
+        <non_req_edge num="12"/>
+        <vertex num="10"/>
+        <total_arc num="56"/>
+        <vehicle_num num="6"/>
+    </Info>
+</Instance>
